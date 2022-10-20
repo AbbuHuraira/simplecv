@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html>
+<head>
+<style>
+.main {
+
+display:flex;
+width:100%;
+}
+.w45{
+width:45%;
+font-size:25px;
+font-weight:800;
+padding: 20px 10px;
+text-align:left;
+}
+.w10{
+width:10%;
+background-color:yellow;
+}
+.w33{
+width:33%;
+margin:20px 0px;
+padding:20px 10px;
+}
+.img{
+max-width:100px;
+height:30px;
+border-radius: 50%;
+}
+.img1{
+width:150px;
+text-align:center;
+margin:auto;
+margin: -40px 0px 0px 0px;
+
+}
+</style>
+</head>
+<body>
+	<div class="main">
+		<div id="name" class="w45" style="text-align:right">Hannan<br>Raja </div>
+		<div class="w10"></div>
+		<div class="w45">Web developer</div>
+	</div>
+	<div class="main">
+		<img src="jeep.png" class="img" alt="mern stack image">
+		<img src="batman.png" class="img" alt="mern stack image">
+		<img src="jeep.png" class="img" alt="mern stack image">
+		<img src="batman.png" class="img" alt="mern stack image">
+	</div>
+	<div class="main" style="margin:auto; text-align:center;">
+		<div class="w33" style="background-color:yellow"><img class="img1" src="batman.png"></div>
+		<div class="w33"><ul><li>hello</li><li>hello</li></ul></div>
+		<div class="w33"></div>
+	</div>
+</body>
+</html>
